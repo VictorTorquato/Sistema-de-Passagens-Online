@@ -1,0 +1,142 @@
+
+.Title{
+    font-family: 'Varela Round', sans-serif;
+    margin-top: 10px;
+    font-size: 48px;
+    font-weight: 700;
+    -webkit-font-smoothing: antialiased
+}
+
+.header{
+    background-color: #090e27;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.institucional{
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    display: flex;
+    align-items: center; 
+    text-align: center;
+    justify-content:center;
+}
+
+.ourtraveler2021{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14;
+    display: flex;
+    align-items: flex-start; 
+}
+
+
+.caracteristicasSection{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    border-style: solid;
+    border-bottom-style: dashed;
+    border-left: #303030;
+    border-right: #303030;
+}
+
+.caracteristicasFont{
+    margin: 0 auto;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 26px;
+    text-align: center;
+}
+
+.beneficios{
+    padding: 20px;
+    margin: 50px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+}
+
+.beneficiosFont{
+    font-family: 'Exo bold', sans-serif;
+    font-weight: 500;
+    margin: 15px;
+    font-size: 14px;
+}
+
+.exo40{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo bold', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.poltrona{
+    margin: 5px;
+    border-style: solid;
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.poltrona:hover{
+    filter: brightness(80%)
+}
+
+.buttonLogout{
+    margin: 10px;
+    width: 100px;
+    background-color: #b8b8b8;
+    border: 0;
+    border-radius: 2px;
+    color: #222;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 16px;
+    transition: filter 0.2s;
+}
+
+.buttonLogout:hover{
+    filter: brightness(80%)
+}
+
+.buttonComprar{
+    padding: 5px;
+    margin: 10px;
+    width: 120px;
+    background-color: #f5a105;
+    border: 0;
+    border-radius: 2px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 18px;
+    transition: filter 0.2s;
+}
+
+.buttonComprar:hover{
+    filter: brightness(90%);
+}
